@@ -1,0 +1,80 @@
+/*-- ============================= intro-1 end ========================== --*/
+.intro-1 .category{
+    margin: 90px 8px;
+    
+}
+.big_card{
+    display: flex;
+}
+.card{
+    width:135.89px;
+    height: 200px;
+   margin-right: 20px;
+   background-color: #FFFFFF;
+   border-radius: 10px;
+   padding-top: 10px;
+   box-shadow: rgb(0, 0, 0);
+   transition: 2s;
+}
+.card:hover{
+    transform: scale(1.2);
+    z-index: 5px;
+}
+.gajets{
+    font-size: 16px;
+    margin: 3px 20px;
+}
+.butn{
+    width: 1229px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 17px 577px;
+}
+a{
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+/*-- ============================= intro-1 end ========================== --*/
+
+/*-- ============================= intro-2 start ========================== --*/
+.intro-2.the_most{
+    margin: 40px 90px;
+}
+
+.big_card-1{
+    display: flex;
+    gap: 20px;
+   margin-left: 4px;
+}
+.card-1{
+    width: 230px;
+    height: 390px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px;
+}
+.top_sale{
+    position: absolute;
+   
+    
+}
+.fot_btn{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.btn_s{
+    padding: 8px 28px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #0D63F3;
+    color: #FFFFFF;
+    border: none;
+}
+.btn_s:hover{
+   background-color: #EB8528;
+}

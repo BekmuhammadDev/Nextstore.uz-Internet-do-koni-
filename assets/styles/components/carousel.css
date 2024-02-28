@@ -1,6 +1,70 @@
-#intro .carousel{
+/* #intro .carousel{
     background-color: limegreen;
     width: 100%;
     border-radius: 30px;
     height: 300px;
-}
+} */
+
+
+body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+      width: 1230px;
+    height: 360px;
+   
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../images/intr-banner.jpg);
+    border-radius: 20px;
+  }
+ 
+  .swiper-button-next{
+      left: 1250px;
+      width: 42px;
+      height: 42px;
+      border: 1px solid black;
+      background-color:gold ;
+      padding: 23px;
+      border-radius: 50%;  
+      position: relative;
+  }
+
+  .swiper-button-prev{
+      width: 42px;
+      height: 42px;
+      border: 1px solid black;
+      background-color:gold;
+      padding: 23px;
+      border-radius: 50%;
+  }
+
+  .swiper-pagination{
+    width: 160px;
+    height: 16px;
+    font-size: 10px;
+  }
+
+
+  .swiper-slide img {
+    display: block;
+    object-fit: cover;
+  }
