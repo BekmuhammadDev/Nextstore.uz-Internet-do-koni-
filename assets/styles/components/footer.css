@@ -132,7 +132,7 @@ h1{
 hr{
     margin-top: 100px;
     width: 1230px;
-    border: 2px solid #4D5EF6;
+    border: 1px solid #4D5EF6;
 }
 .text{
     display: flex;
