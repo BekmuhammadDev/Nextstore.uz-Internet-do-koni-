@@ -1,0 +1,386 @@
+#category .card-wrapper {
+  background: transparent;
+ display: flex;
+  
+}
+
+
+  .catlog_page{
+    width: 230px;
+    height: 1,635px;
+    background-color: #FFFFFF;
+  
+   
+    
+  }
+
+  .catalog_prg{
+    font-size: 38px;
+    margin: 10px;
+  }
+
+  .big_table{
+    list-style-type: none;
+  }
+
+
+  .table{
+  margin-top: 15px;
+  text-align: center;
+
+  }
+
+  a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #000000;
+    font-size: 28px;
+    margin-left: 10px;
+    ;
+  }
+  a:hover{
+    color: green;
+  }
+
+ 
+
+  /* ------------------------------------ */
+  .input-line{
+    border: 1px solid #E4E7EE
+    ;
+    margin-top: 20px;
+  }
+  .input_2{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+  }
+
+  .number{
+    width: 91px;
+    height: 29px;
+  }
+/* ------------------------------------------ */
+.checkbox-line{
+  margin-top: 30px;
+  width: 230px;
+  height: 296px;
+}
+
+.search{
+  width: 210px;
+  height: 40px;
+  padding: 8px, 10px, 8px, 10px;
+  border-radius: 10px;
+  border: 1px solid #E4E7EE;
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+
+
+.about-line{
+  width: 210px;
+  height: 194px;
+
+
+ 
+  
+}
+.phones-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    text-align: center;
+    
+  
+    
+  
+   
+        
+
+  }
+
+  .checbox{
+    width: 24px;
+    height: 24px;
+  }
+  .phones{
+  font-size: 16px;
+  margin-bottom: 25px;
+ ;
+  }
+  .ides{
+    font-size: 26px;
+  }
+
+  /* ---------------------------------- */
+
+  .buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;    
+    display: inline-block;
+    margin: 10px 20px;
+    width: 600px;
+   
+  }
+  .btn_1{
+    width: 143px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #0D63F3;
+    color: #FFFFFF;
+    padding: 10px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+  }
+  .btn_1:hover{
+    background-color: gold;
+  }
+
+
+  .btn_2{
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #0D63F3;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .btn_2:hover{
+    background-color: gold;
+  }
+  .btn_3{
+    width: 162px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #0D63F3;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .btn_3:hover{
+    background-color: gold;
+  }
+  .btn_4{
+    width: 225px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #0D63F3;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .btn_4:hover{
+    background-color: gold;
+  }
+
+#category .card-wrapper .card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;  
+  column-gap: 5px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+#category .card {
+  width:230.89px;
+  height: 420px;
+ background-color: #FFFFFF;
+ border-radius: 10px;
+margin-right: 20px;
+margin-top: 20px;
+ box-shadow: rgb(0, 0, 0);
+ transition: all 0.2 ease-in-out;
+}
+
+#category .card:hover{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+#category .card img {
+  padding:10px;
+  margin-left: 20px;
+}
+
+#category .card .card-body {
+  padding: 0 10px;
+  padding-top: 10px;
+}
+
+#category .card .card-body a,p {
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 539;
+  text-decoration: none;
+  display: block;
+}
+
+#category .card .card-body a,p :hover{
+  color: #0D63F3;
+}
+.card_footer{
+  display: flex;
+}
+.fot_btn{
+  width:  130px;
+  height: 40px;
+  font-size: 20px;
+
+
+  border-radius: 8px;
+  background-color:#0D63F3;
+  color: #fff;
+}
+/* ============================================================= */
+ .big_card{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.card_1{
+  width:290.89px;
+  height: 420px;
+ margin-right: 20px;
+ background-color: #FFFFFF;
+ border-radius: 10px;
+ padding-top: 10px;
+ box-shadow: rgb(0, 0, 0);
+ transition: all 0.2 ease-in-out;
+}
+.card_1:hover{
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.top_sale{
+  position: absolute;
+}
+.card_1 img{
+  padding:10px;
+  margin-left: 40px;
+}
+h1{
+  margin-top: 40px;
+}
+h4{
+  color: #0D63F3;
+  padding-left: 15px;
+}
+.about{
+font-size: 14px;
+}
+.how{
+  color: #6C757D;
+  margin-top: 10px;
+  align-items: center;
+}
+.btn_log{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.btn_log button{
+  padding: 10px 24px;
+  border-radius: 8px;
+  background-color: #0D63F3;
+  color: #FFFFFF;
+  align-items: center;
+}
+.btn_log button:hover{
+  background-color: gold;
+  color: #000000; 
+}
+/* ------------------------------------------------------------------------------- */
+ @media only screen and (max-width: 480px){
+
+
+  #category .card-wrapper .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;  
+    column-gap: 15px;
+  }
+  #category .card   {
+    display: grid; 
+     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;  
+    column-gap: 15px; 
+    
+     background-color: #fff;
+    width: 150px;
+    height: 242px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+  
+  }
+
+  #category .card img {
+    width: 136px;
+    height: 135;
+  }
+
+  .big_card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;  
+    column-gap: 15px;
+
+    padding-left: 15px;
+  }
+  .card_1{
+  margin-left: 20px;
+  }
+  .card_1 img{
+    padding:50px;
+  }
+  .about{
+    
+      font-size: 14px;
+      padding-left: 30px;
+     
+      
+    }
+
+    .btn_log{
+     display: none;
+    }
+    .btn_log button{
+    display: none;
+    }
+    .btn_log button:hover{
+      display: none;
+    }
+    
+
+
+  }
+  
+
+
+/* ---------------------------------------------------------------------------------- */
+
+  
+
+
+
