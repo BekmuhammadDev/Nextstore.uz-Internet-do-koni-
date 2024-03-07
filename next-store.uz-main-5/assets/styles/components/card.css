@@ -177,6 +177,7 @@
  padding-top: 10px;
  box-shadow: rgb(0, 0, 0);
  transition: all 0.2 ease-in-out;
+margin-right: 20px;
 }
 .card_1:hover{
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
@@ -186,7 +187,7 @@
 }
 .card_1 img{
   padding:10px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 h1{
   margin-top: 40px;
@@ -197,11 +198,14 @@ h4{
 }
 .about{
 font-size: 14px;
+text-align: center;
+margin-right: 10px;
 }
-.how{
+.number_page{
   color: #6C757D;
   margin-top: 10px;
   align-items: center;
+  margin-left: 30px;
 }
 .btn_log{
   display: flex;

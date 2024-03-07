@@ -1,0 +1,30 @@
+.product_list{
+    width: 1230px;
+    height: 857px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+.product_list_right{
+   padding: 30px 19px;
+  
+}
+
+.product_list_main{
+   
+    display: flex;
+}
+
+
+
+
+
+
+
+
+.product_list_left{
+    margin-top: 145px;
+
+}
